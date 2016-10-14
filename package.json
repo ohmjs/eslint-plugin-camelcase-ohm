@@ -1,0 +1,41 @@
+{
+  "name": "eslint-plugin-camelcase-ohm",
+  "description": "An ESLint plugin that extends the built-in camelcase rule to allow underscores in semantic action names.",
+  "version": "0.1.0",
+  "author": "Patrick Dubroy <pdubroy@gmail.com> (http://dubroy.com)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-google": "^0.6.0",
+    "eslint-plugin-no-extension-in-require": "^0.2.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node test/test-camelcase-ohm.js",
+    "prepublish": "npm test"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ohmlang/eslint-plugin-camelcase-ohm.git"
+  },
+  "keywords": [
+    "eslint",
+    "plugin",
+    "node",
+    "require",
+    "path",
+    "extension"
+  ],
+  "bugs": {
+    "url": "https://github.com/ohmlang/eslint-plugin-camelcase-ohm/issues"
+  },
+  "homepage": "https://github.com/ohmlang/eslint-plugin-camelcase-ohm"
+}
