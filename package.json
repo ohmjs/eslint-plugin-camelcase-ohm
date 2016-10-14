@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-camelcase-ohm",
   "description": "An ESLint plugin that extends the built-in camelcase rule to allow underscores in semantic action names.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Patrick Dubroy <pdubroy@gmail.com> (http://dubroy.com)",
   "license": "MIT",
   "dependencies": {},
