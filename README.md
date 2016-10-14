@@ -8,11 +8,13 @@ When writing semantic actions for an Ohm grammar, it's typical to have functions
 
 To use this plugin with [ESLint](http://eslint.org):
 
+- Install this package as a dev dependency, e.g. `npm install eslint-plugin-camelcase-ohm`.
+
 - Ensure the plugin is loaded, e.g. by adding the following to your `.eslintrc` file:
 
   ```
   "plugins": [
-    "camelcase-ohm"
+    "eslint-plugin-camelcase-ohm"
   ]
   ```
 
