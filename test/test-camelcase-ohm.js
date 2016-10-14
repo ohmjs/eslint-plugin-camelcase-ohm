@@ -1,6 +1,6 @@
 'use strict';
 
-var rule = require('..');
+var rule = require('../lib/camelcase-ohm');
 var RuleTester = require('eslint').RuleTester;
 
 var ruleTester = new RuleTester();
