@@ -20,7 +20,7 @@ To use this plugin with [ESLint](http://eslint.org):
 
   ```
   "rules": {
-    "camelcase-ohm/main": 2
+    "camelcase-ohm/camelcase-ohm": 2
   }
   ```
 

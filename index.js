@@ -35,12 +35,16 @@ function checkSemanticActionName(node) {
   return false;
 }
 
+var mainRule = {
+  Identifier: function(node) {
+    if (!checkCamelCase(node) && !checkSemanticActionName(node)) {
+      report(context, node);
+    }
+  }
+};
+
 module.exports = function(context) {
   return {
-    Identifier: function(node) {
-      if (!checkCamelCase(node) && !checkSemanticActionName(node)) {
-        report(context, node);
-      }
-    }
+    rules: {'camelcase-ohm': mainRule};
   };
 };
